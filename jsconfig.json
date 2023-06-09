@@ -1,6 +1,12 @@
 {
+    "compilerOptions": {
+        "allowJs": true,
+        "checkJs": true,
+        "noImplicitAny": true,
+        "strict": true
+    },
     "include": [
-        "types/**/*.*",
-        "src/**/*.*"
+        "src/**/*.*",
+        "types/**/*.*"
     ]
 }
